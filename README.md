@@ -1,23 +1,23 @@
 # ⭐ Learning ReactJS
 
-This repository contains the code for my React.js learning journey, including everything I covered during my around 16-17 days ReactJS learning challenge.
+A collection of all my React.js practice code, notes, and projects built during my 16–17 day learning challenge.
 
 ---
 
 ## 📚 Resources
 
-- [Bro Code React Series](https://youtu.be/CgkZ7MvWUAA?si=S6yKIIdnOrdAkXYc)
+- [Bro Code React (around 5hrs) ](https://youtu.be/CgkZ7MvWUAA?si=S6yKIIdnOrdAkXYc)
 - [React.dev – Official Docs](https://react.dev/learn)
 - **React Router**
   - [YT Video 1](https://www.youtube.com/watch?v=VeWdk4D_xYs)
   - [YT Video 2](https://www.youtube.com/watch?v=Ul3y1LXxzdU)
   - [Blog Guide](https://blog.webdevsimplified.com/2022-07/react-router/)
 
----
+--- 
 
-## 🗂️ Learning Progress Table
+## 🗂️ Learning Progress Table 
 
-| **Day📅**  | **Resource👨‍💻** | **Learned📖** | **Comment💬** |
+| **Day📅**  | **Resource👨‍💻** | **Learned📖** | **Remarks💬** |
 |------------|------------------|----------------|----------------|
 | **Day 01** | Bro Code | <ul><li>React setup</li><li>Folder structure</li><li>Component basics</li><li>Adding CSS in React</li></ul> | Nothing |
 | **Day 02** | Bro Code | <ul><li>Props</li><li>Conditional Rendering</li></ul> | Nothing |
