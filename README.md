@@ -32,7 +32,8 @@ A collection of all my React.js practice code, notes, and projects built during 
 
 ---
 
-## 🧩 Mini Projects Completed
+## 🧩 Mini Projects Completed 
+in brocode tutorial....
 
 - 🎨 Color Picker App  
 - ⏱️ Stopwatch App  
