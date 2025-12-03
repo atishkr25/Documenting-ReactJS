@@ -13,6 +13,8 @@ function Home() {
         const loadPopularmovies = async () => {
             try {
                 const popularmovie = await getPopularmovies();
+                // Artificial delay to show loading state
+                await new Promise(resolve => setTimeout(resolve, 2500));
                 setMovies(popularmovie);
             } catch (err) {
                 console.log(err);
@@ -26,7 +28,7 @@ function Home() {
     }, []);
 
 
-    // Search Handler
+
     const handleSearch = async (e) => {
         e.preventDefault();
 
@@ -62,17 +64,24 @@ function Home() {
                 </button>
             </form>
 
+            {error && (<div className="error-message-div"> {error} </div>)}
 
-            <div className="movies-grid">
-
-                {movies.map(movie => (
+            {loading ? (
+                <div className="loading-container">
+                    <div className="loading-spinner"></div>
+                    <p className="loading-text">थोड़ा सा इंतज़ार कर लाडले</p>
+                </div>
+            ) :
+                (<div className="movies-grid">
+                    {movies.map(movie => (
                         <Moviecard
                             movie={movie}
                             key={movie.id}
                         />
                     ))
-                }
-            </div>
+                    }
+                </div>)}
+
         </div>
     );
 }
