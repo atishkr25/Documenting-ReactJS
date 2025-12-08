@@ -14,7 +14,7 @@ function Home() {
             try {
                 const popularmovie = await getPopularmovies();
                 // Artificial delay to show loading state
-                await new Promise(resolve => setTimeout(resolve, 2500));
+                await new Promise(resolve => setTimeout(resolve, 2000));
                 setMovies(popularmovie);
             } catch (err) {
                 console.log(err);
@@ -69,7 +69,7 @@ function Home() {
             {loading ? (
                 <div className="loading-container">
                     <div className="loading-spinner"></div>
-                    <p className="loading-text">थोड़ा सा इंतज़ार कर लाडले</p>
+                    <p className="loading-text">wait wait...the charachters are loading😁</p>
                 </div>
             ) :
                 (<div className="movies-grid">
